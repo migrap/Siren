@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Reflection;
 
 namespace Siren {
-    public partial class Document {        
-        public Class Class { get; set; } = new Class();
+    public partial class Document {
+        public virtual Class Class { get; set; } = new Class();
 
         public Object Properties { get; set; }
 
@@ -15,5 +16,9 @@ namespace Siren {
         public Rel Rel { get; set; }
 
         public Href Href { get; set; }
+    }
+
+    public partial class Document<T> : Document {
+        public override Class Class { get; set; } = typeof(T).GetTypeInfo().Name;
     }
 }
