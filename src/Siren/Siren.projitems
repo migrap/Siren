@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c67eeaf4-ee6b-491a-8939-f17e7095d4f7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Siren</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Action.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Actions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\ActionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\EntityBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\FieldBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\IActionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\IEntityBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\IFieldBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\IItemBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\ILinkBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\IQueryBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\ItemBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\LinkBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Builders\QueryBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Class.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Collection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Document.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Field.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Fields.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Href.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IFluent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Item.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Link.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Links.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Queries.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Query.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Rel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Template.cs" />
+  </ItemGroup>
+</Project>
