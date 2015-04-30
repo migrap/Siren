@@ -1,27 +1,23 @@
 ﻿{
-    "version": "0.2.2",
-    "compilationOptions": {
-        "warningsAsErrors": true
-    },
+    "version": "1.0.0-beta4",
+    "description": "",
+    "authors": [ "" ],
+    "tags": [ "" ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
     "dependencies": {
     },
+
     "frameworks": {
-        "aspnet50": {
+        "dnx451": { },
+        "dnxcore50": {
             "dependencies": {
-            },
-            "frameworkAssemblies": {
-                "System.Reflection": "4.0.0.0",                
-                "System.Reflection.Extensions": "4.0.0.0"
-            }
-        },
-        "aspnetcore50": {
-            "dependencies": {
-                "System.Collections": "4.0.10-beta-22231",
-                "System.Runtime": "4.0.20-beta-22231",
-                "System.Linq": "4.0.0-beta-22231",
-                "System.Reflection": "4.0.10-beta-22231",
-                "System.Reflection.Extensions": "4.0.0-beta-22231"
+                "System.Collections": "4.0.10-beta-22816",
+                "System.Linq": "4.0.0-beta-22816",
+                "System.Threading": "4.0.10-beta-22816",
+                "Microsoft.CSharp": "4.0.0-beta-22816"
             }
         }
     }
-    }
+}
