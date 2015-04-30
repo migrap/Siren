@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E91F49B0-26AD-4A92-A6FC-99CABA064254}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Siren", "src\Siren\Siren.kproj", "{E74D4766-2FAC-4ED1-A9FD-A010C44DAB68}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Siren", "src\Siren\Siren.xproj", "{E74D4766-2FAC-4ED1-A9FD-A010C44DAB68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AE29653C-AFEA-4101-8118-A8D033E0D289}"
 	ProjectSection(SolutionItems) = preProject
