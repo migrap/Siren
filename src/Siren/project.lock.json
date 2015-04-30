@@ -4,7 +4,7 @@
   "projectFileDependencyGroups": {
     "": [],
     "Asp.Net,Version=v5.0": [
-      "framework/System.Reflection >= 4.0.10.0",
+      "framework/System.Reflection >= 4.0.0.0",
       "framework/System.Reflection.Extensions >= 4.0.0.0"
     ],
     "Asp.NetCore,Version=v5.0": [
